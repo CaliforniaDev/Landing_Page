@@ -1,0 +1,20 @@
+.container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  justify-content: flex-end;
+}
+.container > .logo {
+  background-color: gray;
+}
+
+.container > a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background-color: gray;
+  width: 200px;
+
+}
+.logo {
+  margin-right: auto;
+}
