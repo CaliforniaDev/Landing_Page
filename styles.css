@@ -19,7 +19,7 @@
   display: flex;
   font-size: 1em;
 }
-.container > .logo {
+.container > a:nth-child(1) {
   background-color: ;
   height: 3.5em;
   align-self: center;
@@ -48,8 +48,6 @@
   .logo {
     margin: 0;
     display: flex;
-    justify-content: center;
     flex: 1 1 100%;
-    width: 100%;
   }
 }

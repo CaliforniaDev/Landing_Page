@@ -39,3 +39,9 @@ body, html {
   align-self: center;
   font-size: 5em;
 }
+
+@media all and (max-width: 600px) {
+  .hero-image {
+    min-height: 15em;
+  }
+}
