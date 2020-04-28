@@ -18,7 +18,9 @@
   background-color: rgba( 51, 53, 64, 0.9);
   display: flex;
   font-size: 1em;
-  z-index: -1;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 .container > a:nth-child(1) {   /* .logo container */
   align-self: center;
@@ -32,7 +34,6 @@
   text-align: center;
   text-decoration: none;
   color: #FFFFFF;
-  background-color: ;
   width: 200px;
   display: flex;
   justify-content: center;
