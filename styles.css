@@ -15,9 +15,10 @@
 .container {
   /*
   border: 5px solid #ffcc5c;*/
-  background-color: #333540;
+  background-color: rgba( 51, 53, 64, 0.9);
   display: flex;
   font-size: 1em;
+  z-index: -1;
 }
 .container > a:nth-child(1) {   /* .logo container */
   align-self: center;
