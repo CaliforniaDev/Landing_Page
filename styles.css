@@ -32,7 +32,6 @@
 }
 
 .container > a {
-  text-align: center;
   text-decoration: none;
   color: #FFFFFF;
   width: 200px;
@@ -41,6 +40,28 @@
   align-items: center;
 
 }
+.features-container {
+  display: flex;
+  border: 5px solid orange;
+
+}
+.features-container > .features {
+  width 20em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid red;
+  flex: 1 1 50%;
+}
+.features-container > .video {
+  display: flex;
+  justify-content: center;/*horizontal*/
+  align-items: center; /*vertical*/
+  border: 5px solid green;
+  flex: 1 1 50%;
+}
+
+
 
 @media all and (max-width: 600px) {
   .container {
