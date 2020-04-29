@@ -21,6 +21,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 999;
 }
 .container > a:nth-child(1) {   /* .logo container */
   align-self: center;
