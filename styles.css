@@ -44,23 +44,28 @@
 }
 .features-container {
   display: flex;
-  border: 5px solid orange;
+  justify-content: flex-end;
+  text-align: right;
 
 }
-.features-container > .features {
+.features-container > .lside {
+  flex: 40%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  /*
   width 20em;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 5px solid red;
+  border: 5px solid blue;
   flex: 1 1 50%;
+  */
 }
-.features-container > .video {
-  display: flex;
-  justify-content: center;/*horizontal*/
-  align-items: center; /*vertical*/
-  border: 5px solid green;
-  flex: 1 1 50%;
+
+.features-container > .rside {
+flex: 65%;
+background-color: white;
+padding: 20px;
 }
 .form {
   margin:auto;
