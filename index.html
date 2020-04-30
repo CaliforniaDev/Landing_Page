@@ -15,7 +15,7 @@
       <a href="#features" class="nav-link">Features</a>
       <a href="#" class="nav-link">Pricing</a>
       <a href="#" class="nav-link">About</a>
-      <a href="#" class="nav-link">Sign Up</a>
+      <a href="#form" class="nav-link">Sign Up</a>
 
 
       </nav>
@@ -27,17 +27,15 @@
     </header>
 
   <body>
-    <section class="features-container">
+    <section id="features" class="features-container">
       <h1 class="features">features</h1>
       <h2 class="video">video</h2>
     </section>
-    <form>
-      <label for="fname">First name:</label> </ br>
-      <input type="text" id="fname" name="fname"></ br>
-      <label for="lname">Last name:</label></ br>
-      <input type="text" id="lname" name="lname"></ br>
-      <label for="email">Email:</label></ br>
-      <input type="text" id="email" name="email">
+    <form id="form" class="form" action="https://www.freecodecamp.com/email-submit">
+      <label for="subscription" class="form-content">Subscribe to our email list:</label> </ br>
+      <input type="email" id="email" class="form-content" for="subscription" name="email"
+      placeholder=" Your email" maxlength="320" /> <br>
+      <input type="submit" id="submit" class="form-content" name="subscribe" value="Subscribe" /></ br>
     </form>
     </body>
 </html>
