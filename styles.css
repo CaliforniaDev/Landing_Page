@@ -42,38 +42,34 @@
 .nav-link:hover {
   background-color: rgba( 2, 38, 58, 0.3);
 }
-.features-container {
-  display: flex;
-  justify-content: center;
-  text-align: center;
 
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; */centers video*/
 }
 h2 {
-  text-align: right;
 }
-.features-container > .lside {
-  flex: 40%;
+.flex-container > .top-col {
   background-color: #f1f1f1;
-  padding: 20px;
-  /*
-  width 20em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 5px solid blue;
-  flex: 1 1 50%;
-  */
+  height: 500px;
+  width: 100%;
 }
-
-
-.features-container > .rside {
-flex: 65%;
+.flex-container > .middle-col {
 background-color: white;
-padding: 20px;
 align-items: flex-start;
 }
 #video {
+  margin: 30px 0 20px 0;
   width: 50%;
+}
+
+.bottom-col {
+  background-color: black;
+  width: 100%;
+  color: white;
 }
 .form {
   margin:auto;
