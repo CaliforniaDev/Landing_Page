@@ -42,6 +42,17 @@
 .nav-link:hover {
   background-color: rgba( 2, 38, 58, 0.3);
 }
+#bottomspy {
+  width: 50%;
+}
+/*
+.image-container {
+  position: absolute;
+}
+.image-container > .detective {
+  width: 200px;
+}
+*/
 
 
 .flex-container {
@@ -49,13 +60,19 @@
   flex-direction: column;
   align-items: center;
   text-align: center; */centers video*/
+  overflow: visible;
 }
 h2 {
 }
 .flex-container > .top-col {
-  background-color: #f1f1f1;
-  height: 500px;
+  display: flex;
+  background-color: #0E5871;
+  height: 100vh;
   width: 100%;
+  flex: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: visible;
 }
 .flex-container > .middle-col {
 background-color: white;

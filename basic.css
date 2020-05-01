@@ -29,20 +29,25 @@ body, html {
   url("img/hero-image.jpg");
   min-height: 42em;
   height: 100%;
-  align-self: center;
+  justify-content: flex-end;
+  align-items: flex-end;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; /*fixed for paralax effect */
-  align-items: center;
-  justify-content: center;
 }
-.hero-text {
-  text-align: center;
+.hero-content {
+  flex: 100%;
   color: white;
+  width: 100%;
+  display: flex;
 }
 .hero-header {
-  align-self: center;
   font-size: 5em;
+}
+#tophat {
+  width: 75%;
+  margin-left: 50%;
+
 }
 
 @media all and (max-width: 600px) {
