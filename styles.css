@@ -62,7 +62,7 @@
 .top-col {
   flex-direction: row;
   display: flex;
-  background-color: #0E5871;
+  background-color: black; /*detective background*/
   height: 100%;
   width: 100%;
   flex: 100%;
@@ -76,7 +76,8 @@
   display: flex;
 }
 .top-col > .content {
-  background-color: gray;
+  background-color: black;
+  color: white;
   opacity: 0.9;
   display: flex;
   border: 3px solid purple;
@@ -100,7 +101,7 @@
 }
 
 .flex-container > .middle-col {
-background-color: white;
+background-color: black;
 align-items: flex-start;
 }
 #video {
