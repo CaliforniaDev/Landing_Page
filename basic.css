@@ -24,8 +24,8 @@ body, html {
 .hero-image {
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2),
-  rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),
+  rgba(31, 0, 0, 0.5)),
   url("img/cybersecurity_hero.png");
   min-height: 42em;
   height: 100vh;
