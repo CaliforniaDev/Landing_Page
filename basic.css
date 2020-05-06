@@ -36,10 +36,13 @@ body, html {
   background-attachment: fixed; /*fixed for paralax effect */
 }
 .hero-content {
+  margin-right: 34%;
   flex: 100%;
   color: white;
   width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .hero-header {
   font-size: 5em;
