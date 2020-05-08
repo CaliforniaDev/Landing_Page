@@ -54,7 +54,8 @@
 .top-col {
   flex-direction: row;
   display: flex;
-  background-color: black; /*dectective background*/
+  background-color: rgb( 1, 52, 86);   /*dectective background*/
+  opacity: 0.9
   height: 100%;
   width: 100%;
   flex: 100%;
@@ -68,7 +69,6 @@
   display: flex;
 }
 .top-col > .content {
-  background-color: black;
   color: white;
   opacity: 0.9;
   display: flex;
