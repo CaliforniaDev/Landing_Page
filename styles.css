@@ -50,47 +50,32 @@
   flex-direction: column;
   align-items: center;
   text-align: center; */centers video*/
+  font-size: 100px;
 }
 .top-col {
-  flex-direction: row;
   display: flex;
-  background-color: rgb( 1, 52, 86);   /*dectective background*/
-  opacity: 0.9
-  height: 100%;
-  width: 100%;
-  flex: 100%;
-  border: 3px solid orange;
-}
-#bottomspy {
-  text-align: left;
-  border: 3px solid green;
-  width: 100%;
-
-  display: flex;
-}
-.top-col > .content {
-  color: white;
-  opacity: 0.9;
-  display: flex;
-  border: 3px solid purple;
-  flex: 2 1 100%;
-
-  align-items: center;
   flex-wrap: wrap;
+  width: 100%;
+}
+.left{
+
 
 }
-#firewall {
-  display: flex;
-  border: 3px solid blue;
-  margin-right: 15%;
-  margin-left: 15%;
+.middle {
 
 }
-.content > p {
-  border: 3px solid blue;
-  display: flex;
-  width: 50%;
+.right {
+
 }
+.top-col > p {
+  border: 5px solid white;
+  background-color: #aaa;
+  flex: 30%;
+}
+
+
+
+
 
 .flex-container > .middle-col {
 background-color: black;
