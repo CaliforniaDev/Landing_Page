@@ -11,9 +11,9 @@
       src="img/cyberlogo_navbar80x70.png" alt="Logo" />
     </a>
       <a href="#features" class="nav-link">Features</a>
+      <a href="#about" class="nav-link">About</a>
       <a href="#" class="nav-link">Pricing</a>
-      <a href="#" class="nav-link">About</a>
-      <a href="#form" class="nav-link">Sign Up</a>
+      <a href="#header" class="nav-link">Sign Up</a>
       </nav>
 
       <section class="hero-image">
@@ -22,8 +22,22 @@
             easier with Cyber Shield</h1>
             <h6>Welcome to Cyber Shield Pro, a data protection<br/>
               software created by the development team at<br/>
-              Nybble Box.</h6>
+              Nybble Box. Subscribe to our email list to<br> recieve current discounts & updates:</h6>
           </div>
+
+
+
+          <form id="form" class="form" action="https://www.freecodecamp.com/email-submit">
+            <label for="subscription" class="form-content">
+            </label> </ br>
+            <input type="email" id="email" class="form-content" for="subscription"
+            name="email"placeholder=" Your email" maxlength="320" /> <br>
+            <input type="submit" id="submit" class="form-content" name="subscribe"
+            value="Subscribe" /></ br>
+          </form>
+
+
+
         </section>
     </header>
 
@@ -31,7 +45,15 @@
 
 
     <section id="features" class="flex-container">
-      <div class="top-col">
+
+      <div class="middle-col">
+      <video id="video" controls autoplay>
+        <source src="video/video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
+    </div>
+
+      <div class="top-col" id="about">
         <div class="top-icon"><img id="blue-check" src="img/blue-check.png" /></div>
         <div class="vertical"></div>
         <div class="top-icon"><img id="red-fire" src="img/red-fire.png" /> </div>
@@ -56,27 +78,16 @@
         of a computer monitor" />
       </div>
 
+      <div class="bottom-col">
+        <h1 class="pricing">Pricing</h1>
+      </div>
 
 
-      <div class="middle-col">
-      <video id="video" controls autoplay>
-        <source src="video/video.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-      </video>
-    </div>
-    <div class="bottom-col">
-      <h1 class="pricing">Pricing</h1>
-    </div>
+
+
     </section>
 
 
-    <form id="form" class="form" action="https://www.freecodecamp.com/email-submit">
-      <label for="subscription" class="form-content">
-        Subscribe to our email list:</label> </ br>
-      <input type="email" id="email" class="form-content" for="subscription"
-      name="email"placeholder=" Your email" maxlength="320" /> <br>
-      <input type="submit" id="submit" class="form-content" name="subscribe"
-      value="Subscribe" /></ br>
-    </form>
+
     </body>
 </html>

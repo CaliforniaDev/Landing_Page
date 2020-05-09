@@ -85,11 +85,16 @@
 
 
 .flex-container > .middle-col {
-background-color: black;
-align-items: flex-start;
+display: flex;
+background-color: rgb( 16, 12, 30);
+align-items: center;
+height: 100vh;
+justify-content: center;
 }
 #video {
-  margin: 30px 0 20px 0;
+  border: 5px solid rgba( 255, 225, 255, 0.7);
+  border-radius: 5px;
+  margin: 30px 0 30px 0;
   width: 50%;
 }
 
@@ -101,15 +106,16 @@ align-items: flex-start;
   color: white;
   height: 200px;
 }
+
 .form {
-  margin:auto;
-  border: 5px solid pink;
+  margin-left: 3em;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   width: 600px;
   align-items: center;
   flex-direction: column;
+  color: white;
 }
 .form > .form-content {
   width: 400px;
@@ -117,6 +123,8 @@ align-items: flex-start;
   text-align: center;
 
 }
+
+
 #email {
   text-align: left;
 }
