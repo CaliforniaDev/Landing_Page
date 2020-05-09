@@ -101,10 +101,51 @@ justify-content: center;
 .bottom-col {
   display: flex;
   background-color: black;
+  color: black;
+  height: 100vh;
   width: 100%;
-  border:3px solid blue;
-  color: white;
-  height: 200px;
+  align-items: center;
+}
+.bottom-col > section {
+  flex: 30%;
+  background-color: #fff;
+  border: 3px solid rgba( 222, 241, 251, 1.0);
+}
+section > .border {
+  border: 5px solid blue;
+  border-radius: 26px;
+  height: 600px;
+  margin: 50px;
+  text-decoration: none;
+}
+.list-head {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+#bronze {
+  background-color: pink;
+}
+#silver {
+  background-color: pink;
+}
+#gold {
+  background-color: pink;
+}
+.list {
+  color: black;
+  list-style: none;
+}
+.list > li {
+  padding: 2.4em 0 2.3em 0;
+}
+.list > li:nth-child(even) {
+  background: gray;
+}
+.list > li:nth-child(4) {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .form {
