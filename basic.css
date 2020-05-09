@@ -2,18 +2,57 @@
   margin: 0;
   padding: 0;
 }
-body {
-  height: 100%;
-}
 
 body, html {
+  height: 100%;
   padding: 0;
   margin: 0 auto;
   box-sizing: border-box;
   font-family: Arial, "Helvetica Neue",
   Helvetica, sans-serif;>
-  font-size: 17pc;
+  font-size: 17px;
   color: black;
   line-height: 1.6;
+  background-color: rgba( 16, 12, 45);
+  scroll-behavior: smooth;
 
+}
+.logo {
+  height: 3.5em;
+}
+
+.hero-image {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1),
+  rgba(31, 0, 0, 0.5)),
+  url("img/cybersecurity_hero.png");
+  min-height: 42em;
+  height: 100vh;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /*fixed for paralax effect */
+}
+.hero-content {
+  justify-content: center;
+  margin-left: 10%;
+  font-size: 2em;
+  color: #ffffff;
+}
+
+}
+.hero-header {
+  font-size: 5em;
+}
+#tophat {
+  width: 75%;
+  margin-left: 50%;
+
+}
+
+@media all and (max-width: 600px) {
+  .hero-image {
+    min-height: 15em;
+  }
 }

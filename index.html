@@ -1,22 +1,150 @@
 <!DOCTYPE html>
 <html>
 <head>
+
   <link rel="stylesheet" href="styles.css" type="text/css">
   <link rel="stylesheet" href="basic.css" type="text/css">
   </head>
   <header id="header" role="banner">
-    <nav id="navbar" class="container">
-      <img class="logo" id="header-img"
+    <nav id="nav-bar" class="nav-container">
+      <a href="#" class="logo-nav">
+      <img class="logo-nav" id="header-img"
       src="img/cyberlogo_navbar80x70.png" alt="Logo" />
-      <a href="#" class="nav-link">Features</a>
-      <a href="#" class="nav-link">Pricing</a>
-      <a href="#" class="nav-link">About</a>
-      <a href="#" class="nav-link">Sign Up</a>
-
-
+    </a>
+      <a href="#features" class="nav-link">Features</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#pricing" class="nav-link">Pricing</a>
+      <a href="#header" class="nav-link">Sign Up</a>
       </nav>
+
+      <section class="hero-image">
+        <div class="hero-content">
+          <h1> Protect you personal data<br/>
+            easier with Cyber Shield</h1>
+            <h6>Welcome to Cyber Shield Pro, a data protection<br/>
+              software created by the development team at<br/>
+              Nybble Box. Subscribe to our email list to<br> recieve current discounts & updates:</h6>
+              <form id="form" class="form" action="https://www.freecodecamp.com/email-submit">
+                <label for="subscription" class="form-content">
+                </label> </ br>
+                <input type="email" id="email" class="form-content" for="subscription"
+                name="email"placeholder=" Your email" maxlength="320" /> <br>
+                <input type="submit" id="submit" class="form-content" name="subscribe"
+                value="Subscribe" /></ br>
+              </form>
+          </div>
+
+
+
+
+
+
+
+        </section>
     </header>
 
   <body>
+
+
+    <section id="features" class="flex-container">
+
+      <div class="middle-col">
+      <video id="video" controls autoplay>
+        <source src="video/video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
+    </div>
+
+      <div class="top-col" id="about">
+        <div class="top-icon"><img id="blue-check" src="img/blue-check.png" /></div>
+        <div class="vertical"></div>
+        <div class="top-icon"><img id="red-fire" src="img/red-fire.png" /> </div>
+        <div class="vertical"></div>
+        <div class="top-icon"><img id="green-plus" src="img/green-plus.png"></div>
+        <h3 class="text">Enhanced Malware Protection detects and blocks spyware,
+          adware, keyloggers, riskware, and other malware. Automatically restricts
+           access to websites that are
+          designed to infect your PC with viruses, or trick you into giving away
+           your personal or financial information to hackers.</h3>
+             <div class="vertical-btm"></div>
+        <h3 class="text">Firewall is an essential antivirus security feature that
+           keeps your PC safe against external threats over the Internet. It also
+           blocks threats that may arise within networks that are connected to
+           your system. Besides allowing you to configure protection for incoming/
+           outgoing Internet traffic.</h3>
+             <div class="vertical-btm"></div>
+        <h3 class="text">The RDM portal lets you manage your Quick Heal antivirus
+          products remotely. You can login to the portal to view the security
+          status of your device, renew, and manage product licenses.</h3>
+        <img id="top-img" src="img/img_top-col.png" alt="small man sitting on top
+        of a computer monitor" />
+      </div>
+
+      <div class="bottom-col">
+        <section class="prices">Section1
+          <aside class="border">
+            <h2 id="bronze" class="list-head">Bronze<br>
+            <span class="gold">$ 4.99</span><br>Per Month</h2>
+            <ul class="list">
+              <li>
+                Lorem ipsum dolor sit amet,
+                consectetuer adipiscing elit</li>
+              <li>
+                Lorem ipsum dolor sit amet,
+                consectetuer adipiscing elit</li>
+              <li>
+                Lorem ipsum dolor sit amet,
+                consectetuer adipiscing elit</li>
+              <li>
+                Lorem ipsum dolor sit amet,
+                consectetuer adipiscing elit</li>
+              <li><button id="button1" class="buy" type="button">Subscribe</button></li>
+            </ul>
+          </aside>
+        </section>
+        <section class="prices">Section2
+          <aside class="border">
+            <h2 id="silver" class="list-head">Silver<br>
+            <span class="gold">$ 14.99</span><br>Per Month</h2>
+            <ul class="list">
+            <li>
+              Lorem ipsum dolor sit amet,
+              consectetuer adipiscing elit</li>
+            <li>
+              Lorem ipsum dolor sit amet,
+              consectetuer adipiscing elit</li>
+            <li>
+              Lorem ipsum dolor sit amet,
+              consectetuer adipiscing elit</li>
+            <li>
+              Lorem ipsum dolor sit amet,
+              consectetuer adipiscing elit</li>
+            <li><button id="button2" class="buy" type="button">Subscribe</button></li>
+
+          </ul>
+          </aside>
+        </section>
+        <section id="pricing" class="prices">Section3
+          <aside class="border">
+            <h2 id="gold" class="list-head">Gold<br>
+              <span class="gold">$ 24.99</span><br>Per Month</h2>
+            <ul class="list">
+            <li>Lorem ipsum dolor sit amet,
+            consectetuer adipiscing elit</li>
+            <li>Lorem ipsum dolor sit amet,
+            consectetuer adipiscing elit</li>
+            <li>Lorem ipsum dolor sit amet,
+            consectetuer adipiscing elit</li>
+            <li>Lorem ipsum dolor sit amet,
+            consectetuer adipiscing elit</li>
+            <li><button id="button3" class="buy" type="button">Subscribe</button></li>
+          </ul>
+          </aside>
+        </section>
+      </div>
+    </section>
+
+
+
     </body>
 </html>
