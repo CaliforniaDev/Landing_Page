@@ -47,7 +47,7 @@
 }
 .vertical { /*top line divider */
   border-left: 3px solid rgba( 255, 255, 255, 0.7);
-  height: 200px;
+  height: 260px;
 
 }
 .vertical-btm { /*bottom line divider*/
