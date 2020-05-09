@@ -1,21 +1,7 @@
 
 
-/*
-.hero {
 
-  display: flex;
-}
-.hero-image {
-  display: block;
-  width: 100%;
-  height: 90vh;
-}
-*/
 .nav-container {
-  /*
-  border: 5px solid #ffcc5c;
-  background-color: rgba( 51, 53, 64, 0.9);
-  */
   background-color: rgba( 16, 12, 45, 0.6);
   display: flex;
   font-size: 1em;
@@ -56,25 +42,28 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
+  border-top: 3px solid rgba( 255, 255, 255, 0.7);
 
 }
+.vertical { /*top line divider */
+  border-left: 3px solid rgba( 255, 255, 255, 0.7);
+  height: 200px;
+
+}
+.vertical-btm { /*bottom line divider*/
+  border-left: 3px solid rgba( 255, 255, 255, 0.7);
+}
 .top-col > .top-icon {
-/*  border: 5px solid rgb( 1, 52, 86);
-  background-color: rgba( 2, 38, 58, 0.3);*/
   text-align: center;
   margin: 1em;
   padding-top: 3.5em;
   flex: 30%;
-}/*
-.top-col > .top-heading {
-  flex: 30%;
-  color: white;
-}*/
+}
 .top-col > .text {
-  /*border: 5px solid rgb( 1, 52, 86);
-  background-color: rgb( 201, 199, 224)rgba( 2, 38, 58, 0.3)*/;
   flex: 30%;
   color: white;
+  padding-left: 20px;
+  padding-right: 20px;
 }
  #top-img {
   width: 35%;
